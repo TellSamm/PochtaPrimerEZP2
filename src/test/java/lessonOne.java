@@ -24,10 +24,11 @@ public class lessonOne {
         String gerUrl = driverNew.getCurrentUrl();
         Assert.assertEquals(gerUrl, "https://grinfer.com/");
 
-
+        String a = "first";//просто добавил изменения для github проверки
         String getPage = driverNew.getPageSource();// метод для вывода всего Html кода страницы
         System.out.println("!!Каша просто каша по городу яхай !!получилось!!" + getPage); // выводим этот html код
         driverNew.close();
+
 
 
 
