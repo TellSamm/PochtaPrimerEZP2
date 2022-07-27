@@ -12,7 +12,7 @@ public class lessonOne {
 
     @Test
     public void lessonOne(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Семён\\Desktop\\Automatization_Test\\chromedriver_2.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\SChernikov\\Desktop\\Automatization_Test\\chromedriver_2.exe");
         WebDriver driverNew = new ChromeDriver();
 
         driverNew.get("https://grinfer.com/");
@@ -27,7 +27,7 @@ public class lessonOne {
 
         String getPage = driverNew.getPageSource();// метод для вывода всего Html кода страницы
         System.out.println("!!Каша просто каша по городу яхай !!получилось!!" + getPage); // выводим этот html код
-        driverNew.close();
+        driverNew.close();// проверка обновления
 
 
 
