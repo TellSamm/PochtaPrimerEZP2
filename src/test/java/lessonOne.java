@@ -27,7 +27,7 @@ public class lessonOne {
 
         String getPage = driverNew.getPageSource();// метод для вывода всего Html кода страницы
         System.out.println("!!Каша просто каша по городу яхай !!получилось!!" + getPage); // выводим этот html код
-        driverNew.close();// проверка обновления
+        driverNew.close();
 
 
 
