@@ -16,6 +16,6 @@ public class Praktikum {
         } else if (dice == 6) {
             System.out.println("Потыкать в носик котика или пёсика");
         }
-        return ;
+
     }
 }
