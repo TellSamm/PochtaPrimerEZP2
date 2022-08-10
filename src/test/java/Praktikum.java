@@ -2,7 +2,7 @@ public class Praktikum {
     public static void main(String[] args) {
         //public String getAdviceOnProcrastination(int dice) {
         //String result = "тут будет храниться совет";
-        int dice = 5;
+        int dice = 9;
         if (dice == 1) {
             System.out.println("Полистать мемы");
         } else if (dice == 2) {
@@ -13,8 +13,8 @@ public class Praktikum {
             System.out.println("Пообщаться с уточкой");
         } else if (dice == 5) {
             System.out.println("Устроить small talk");
-        } else if (dice == 6) {
-            System.out.println("Потыкать в носик котика или пёсика");
+        } else {
+            System.out.println("Error!!");
         }
 
     }
