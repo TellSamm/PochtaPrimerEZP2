@@ -16,13 +16,14 @@ public class Praktikum_9 {
             // В месяц должно пройти 30 дней
             // Расписание каждого дня зависит от условия: проверь, чётный ли день
             // Если да, то принять пациентов из очереди
-            if (smena_dney % 2 == 0) {
-                for (int po_ocheredi = 1; po_ocheredi <= queueNumber; po_ocheredi++) {
+            if (smena_dney % 2 == 0) {// !!!условный оператор if!!!
+                for (int po_ocheredi = 1; po_ocheredi <= queueNumber; po_ocheredi++) { // !!!ЦИКЛ FOR!!!
                     System.out.println("  Пациент по очереди: " + po_ocheredi);
                 }
-            } else { // Иначе принимаем пациентов по записи
-                for (int po_zapisi = 1; po_zapisi <= appointmentNumber; po_zapisi++)
+            } else { // Иначе принимаем пациентов по записи // else идёт когда закрывается скобка после конструкции if
+                for (int po_zapisi = 1; po_zapisi <= appointmentNumber; po_zapisi++) {
                     System.out.println("  Пациент по записи: " + po_zapisi);
+                }
             }
             System.out.println("На сегодня всех вылечили");
         }//цикл прошёл все условия выполнились в течении 30 дней ктото пошел по записи а ктото без в зависимости
