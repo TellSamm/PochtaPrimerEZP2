@@ -1,21 +1,13 @@
 public class Praktikum {
-    public static void main(String[] args) {
-        //public String getAdviceOnProcrastination(int dice) {
-        //String result = "тут будет храниться совет";
-        int dice = 9;
-        if (dice == 1) {
-            System.out.println("Полистать мемы");
-        } else if (dice == 2) {
-            System.out.println("Выпить чашечку чая");
-        } else if (dice == 3) {
-            System.out.println("Полистать ленту новостей");
-        } else if (dice == 4) {
-            System.out.println("Пообщаться с уточкой");
-        } else if (dice == 5) {
-            System.out.println("Устроить small talk");
-        } else {
-            System.out.println("Error!!");
-        }
+        public static void main(String[] args) {
+            int daysBeforeExam = 35; // Дни до старта сессии, цикл должен начинаться с их значения
 
+            for (int i = 35; i >= 0; i = i - 7) { // Напиши цикл
+                // Место для вывода
+                System.out.println("До первого экзамена осталось дней:" + i);
+            }
+
+            System.out.println("Сессия начинается. Халява, приди!");
+        }
     }
-}
+

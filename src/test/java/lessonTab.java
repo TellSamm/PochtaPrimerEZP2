@@ -12,7 +12,7 @@ public class lessonTab {
 
     @Test
     public void lessonTab() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Семён\\Desktop\\Automatization_Test\\chromedriver_2.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\SChernikov\\Desktop\\Automatization_Test\\chromedriver_2.exe");
         WebDriver driverNew = new ChromeDriver();
 
         driverNew.get("https://vk.com/");// открываем сайт

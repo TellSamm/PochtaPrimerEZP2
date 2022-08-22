@@ -1,10 +1,5 @@
 public class Test_1 {
 
-
-
-
-
-
     public static void main(String[] args) {
 
     int a [] = new int[100];
@@ -16,7 +11,6 @@ public class Test_1 {
     for (int y: a){
         System.out.println("Тест прошёл успешно "  + y);
     }
-
 
     }
 }

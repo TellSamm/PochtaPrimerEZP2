@@ -25,7 +25,7 @@ public class Registration {
 
         @Test
         public void registration() throws InterruptedException {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Семён\\Desktop\\Automatization_Test\\chromedriver_2.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\SChernikov\\Desktop\\Automatization_Test\\chromedriver_2.exe");
             WebDriver driverNew = new ChromeDriver();
             driverNew.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));// неявное ожидание * сек Duration - продолжительность
 
