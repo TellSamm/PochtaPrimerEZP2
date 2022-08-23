@@ -2,13 +2,12 @@ public class Parking {  // публичный класс Parking для рабо
     public static void main(String[] args) {
         Parking parking = new Parking();
         parking.printFreeParkingPlacesAmount();
-        parking.leaveParkingPlace();
-        parking.reserveParkingPlace();
-        parking.reserveParkingPlace();
-        parking.reserveParkingPlace();
+        parking.RezerviruemParkovochnoyeMesto();
+        parking.RezerviruemParkovochnoyeMesto();
+        parking.RezerviruemParkovochnoyeMesto();
     }
     public static final int TOTAL_PARKING_PLACES = 100;
-    private int freeParkingPlaces = 100;
+    private int freeParkingPlaces = 0;
     private boolean isFull = false;
 
 
@@ -25,7 +24,7 @@ public class Parking {  // публичный класс Parking для рабо
     // метод, который выводит количество свободных мест
 
     // метод, который резервирует парковочное место
-    public void reserveParkingPlace() {
+    public void RezerviruemParkovochnoyeMesto() {
         // если парковка не заполнена, можно забронировать место;
         // иначе нужно вывести сообщение о том, что мест больше нет
         if (!isFull) {
@@ -43,7 +42,7 @@ public class Parking {  // публичный класс Parking для рабо
     }
 
     // метод, который освобождает парковочное место
-    public void leaveParkingPlace() {
+    public void OsvobozhdaemParking() {
         // если свободных мест меньше, чем всего мест на
         // парковке (то есть хотя бы одно место занято),
         // можно освободить место и увеличить количество свободных мест на 1
