@@ -1,3 +1,5 @@
+package MoiKod;
+
 public class Praktikum_18 {
 
 

@@ -1,9 +1,9 @@
+package MoiKod;
+
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.sql.Driver;
 
 public class lessonOne {
 

@@ -1,3 +1,5 @@
+package MoiKod;
+
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;

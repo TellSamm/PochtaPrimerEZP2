@@ -1,3 +1,5 @@
+package MoiKod;
+
 public class Praktikum_14 {
     /*Необходимо вывести на экран таблицу умножения на 3:
             3*1=3

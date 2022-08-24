@@ -1,3 +1,5 @@
+package MoiKod;
+
 public class Praktikum_4 {
 
     public static void main(String[] args) {

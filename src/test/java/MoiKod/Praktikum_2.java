@@ -1,3 +1,5 @@
+package MoiKod;
+
 public class Praktikum_2 {
     public static void main(String[] args) {
         int dney = 0; // Объявляем переменную для общего числа глав

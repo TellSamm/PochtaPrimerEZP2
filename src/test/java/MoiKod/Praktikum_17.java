@@ -1,3 +1,5 @@
+package MoiKod;
+
 import java.util.Random;
 
 public class Praktikum_17 {

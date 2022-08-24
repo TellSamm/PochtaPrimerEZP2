@@ -1,3 +1,5 @@
+package MoiKod;
+
 public class Praktikum {
         public static void main(String[] args) {
             int daysBeforeExam = 35; // Дни до старта сессии, цикл должен начинаться с их значения

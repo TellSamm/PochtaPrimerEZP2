@@ -1,3 +1,5 @@
+package MoiKod;
+
 public class Praktikum_8 {
     public static void main(String[] args) {
         //Приближается Новый год. Дед Мороз оказался в маленьком и необычном городке: все дети здесь вели себя хорошо и
