@@ -25,6 +25,7 @@ public class Registration {
         private By btnCopyEmail = By.xpath("//button[@class='btn-rds icon-btn bg-theme click-to-copy']");
 
 
+
         @Test
         public void registration() throws InterruptedException {
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\SChernikov\\Desktop\\Automatization_Test\\chromedriver_2.exe");
