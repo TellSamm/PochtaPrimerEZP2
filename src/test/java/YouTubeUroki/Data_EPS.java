@@ -24,6 +24,8 @@ public class Data_EPS {
     public By buttonJoinGosuslugiProd = By.xpath("//button[text()=' Войти ']");
 
     public By buttonJoinGosuslugiTest = By.xpath("//button[@id='loginByPwdButton']");
+
+    public By buttonPay = By.xpath("//button[@class='create-mail-form__button ']");
     public By buttonOK = By.xpath("//button[text()=' Ок ']");
     public By buttonNewLetter = By.xpath("//button[text()='Новое письмо']");
 

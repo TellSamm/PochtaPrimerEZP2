@@ -25,16 +25,16 @@ public class Test_EPS extends Data_EPS {
 
         Data_EPS dataInput = new Data_EPS();
 
-        driver.navigate().to(dataInput.getUrlTest);
+        driver.navigate().to(dataInput.getUrl);
         driver.manage().window().maximize();
         driver.findElement(dataInput.buttonJoinEPS).click();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
-        driver.findElement(dataInput.logInTelephoneTest).sendKeys(dataInput.userPhone);
-        driver.findElement(dataInput.inputPasswordTest).sendKeys(dataInput.userPassword);
+        driver.findElement(dataInput.logInTelephoneProd).sendKeys(dataInput.userPhone);
+        driver.findElement(dataInput.inputPasswordProd).sendKeys(dataInput.userPassword);
         //WebElement element = (new WebDriverWait(driver, Duration.ofSeconds(200))
                 //.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()=' Войти ']"))));
         Thread.sleep(1000);
-        driver.findElement(dataInput.buttonJoinGosuslugiTest).click();
+        driver.findElement(dataInput.buttonJoinGosuslugiProd).click();
         driver.findElement(dataInput.buttonOK).click();
         driver.findElement(dataInput.buttonNewLetter).click();
         driver.findElement(dataInput.inputRecipient).sendKeys(dataInput.organization);
@@ -53,14 +53,15 @@ public class Test_EPS extends Data_EPS {
             driver.findElement(dataInput.addRecipientManually).click();
             Thread.sleep(8000);
             driver.findElement(dataInput.inputAddressRecipient).sendKeys(dataInput.AddressRecipient);
+            wait.until(presenceOfElementLocated(dataInput.clickFreePlace));
             driver.findElement(dataInput.clickFreePlace).click();
             //driver.findElement(dataInput.inputAddressSender).sendKeys(dataInput.senderAddress);
             //driver.findElement(dataInput.clickFreePlace).click();
         }
+            driver.findElement(dataInput.buttonPay).click();
 
-        System.out.println("Test 200 OK!");
+        //System.out.println("Test 200 OK!");
         //driver.quit();
         //доделаем позжее
-
     }
 }
