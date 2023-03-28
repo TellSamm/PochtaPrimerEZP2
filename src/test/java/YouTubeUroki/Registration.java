@@ -31,7 +31,7 @@ public class Registration extends Data_Registration{
        driver.findElement(InputUserPassword).sendKeys(getDate.password);
        driver.findElement(buttonJoinCompleteRegistration).click();
 
-
+       driver.quit();
     }
 
 }
